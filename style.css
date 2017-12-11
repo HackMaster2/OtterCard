@@ -10,16 +10,19 @@ html, body {
 }
 
 body {
+    background-color:green;
+    color:gold;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    background-image: url('img/pink-background.jpg');
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    font-size: 4vmin;
-    font-family: LobsterTwo;
+    font-size: 3.5vmin;
+    font-family: Avantgarde;
+    font-style: italic;
+    
 }
 
 .card {
@@ -51,7 +54,7 @@ body {
     box-shadow: 0 0 10px 0 #777;
     position: absolute;
     backface-visibility: hidden;
-    background-color: white;
+    background-color: red;
 }
 
 .front {
@@ -66,7 +69,7 @@ body {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image: url('img/flowers.png');
+    background-image: url(https://i.pinimg.com/originals/b8/62/db/b862db0fa73784ad0f8f99f6f7cdf562.jpg);
 }
 
 .control-panel {
